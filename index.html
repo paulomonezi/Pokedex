@@ -5,13 +5,22 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Pokédex</title>
+    <link rel="stylesheet" href="src/css/reset.css">
+    <link rel="stylesheet" href="src/css/global.css">
+    <link rel="stylesheet" href="src/css/card.css">
+    <link rel="stylesheet" href="src/css/list.css">
+    <link rel="stylesheet" href="src/css/responsive.css">
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;800&display=swap" rel="stylesheet">
 </head>
 
 <body>
     <main>
         <div class="pokedex">
             <div class="cards-pokemon">
-                <div class="card-pokemon">
+                <div class="card-pokemon open type-eletric">
                     <div class="cards-top">
                         <div class="details">
                             <h2 class="name">Pikachu</h2>
@@ -36,7 +45,7 @@
                                 <li>Total: 1700</li>
                             </ul>
                         </div>
-                        <div class="habilidades">
+                        <div class="skills">
                             <h3>Habilidades</h3>
                             <ul>
                                 <li>Choque do Trovão</li>
@@ -71,7 +80,7 @@
                                 <li>Total: 1700</li>
                             </ul>
                         </div>
-                        <div class="habilidades">
+                        <div class="skills">
                             <h3>Habilidades</h3>
                             <ul>
                                 <li>Choque do Trovão</li>
@@ -106,7 +115,7 @@
                                 <li>Total: 1700</li>
                             </ul>
                         </div>
-                        <div class="habilidades">
+                        <div class="skills">
                             <h3>Habilidades</h3>
                             <ul>
                                 <li>Choque do Trovão</li>
@@ -141,7 +150,7 @@
                                 <li>Total: 1700</li>
                             </ul>
                         </div>
-                        <div class="habilidades">
+                        <div class="skills">
                             <h3>Habilidades</h3>
                             <ul>
                                 <li>Choque do Trovão</li>
@@ -154,22 +163,22 @@
 
             <nav class="list">
                 <ul>
-                    <li>
+                    <li class="pokemon">
                         <img src="src/images/bulbasaur - Copia.png" alt="cabeça do bulbasaur">
                         <span>Bulbasaur</span>
                     </li>
 
-                    <li>
+                    <li class="pokemon">
                         <img src="src/images/charmander - Copia.png" alt="cabeça do charmander">
                         <span>Charmander</span>
                     </li>
 
-                    <li>
+                    <li class="pokemon">
                         <img src="src/images/squirtle - Copia.png" alt="cabeça do squirtle">
                         <span>Squirtle</span>
                     </li>
 
-                    <li>
+                    <li class="pokemon active">
                         <img src="src/images/pikachu - Copia.png" alt="cabeça do pikachu">
                         <span>Pikachu</span>
                     </li>
