@@ -10,16 +10,15 @@
     background-color: #6B727A;
     color: white;
     padding: 0 5px;
-    cursor:pointer;
+    cursor: pointer;
     border-top-left-radius: 30px;
     border-bottom-left-radius: 30px;
     min-height: 70px;
-    box-shadow: rgba(100, 100, 111, 0.2)
-    0px 7px 29px 0px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
     transition: 0.15s ease-in-out;
 }
 
-.list .pokemon:hover{
+.list .pokemon:hover {
     transform: scale(1.05);
 }
 
@@ -28,10 +27,10 @@
     border-radius: 50%;
 }
 
-.list .pokemon span{
+.list .pokemon span {
     padding-right: 20px;
 }
 
-.list .pokemon.active{
+.list .pokemon.active {
     background-color: #FA6668;
 }
