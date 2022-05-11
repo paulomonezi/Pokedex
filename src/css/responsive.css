@@ -12,7 +12,7 @@
         max-width: 300px;
     }
 
-    .card-pokemon .image-card {
+    .card-pokemon .img {
         width: 200px;
         height: 200px;
     }
@@ -22,7 +22,11 @@
         margin-top: -50px;
     }
 
-
+    .card-pokemon .bottom-card-info .details {
+        display: flex;
+        justify-content: space-between;
+        padding: 0;
+    }
 
     .card-pokemon .bottom-card-info h3 {
         font-size: 16px;

@@ -16,11 +16,13 @@
         <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;800&display=swap" rel="stylesheet">
 </head>
 
+<!-- Fix responsive.css later -->
+
 <body>
     <main>
         <div class="pokedex">
             <div class="cards-pokemon">
-                <div class="card-pokemon open type-eletric">
+                <div class="card-pokemon open type-eletric" id="card-pikachu">
                     <div class="cards-top">
                         <div class="details">
                             <h2 class="name">Pikachu</h2>
@@ -55,7 +57,7 @@
                     </div>
                 </div>
 
-                <div class="card-pokemon">
+                <div class="card-pokemon type-grass" id="card-bulbasaur">
                     <div class="cards-top">
                         <div class="details">
                             <h2 class="name">Bulbasaur</h2>
@@ -90,7 +92,7 @@
                     </div>
                 </div>
 
-                <div class="card-pokemon">
+                <div class="card-pokemon type-fire" id="card-charmander">
                     <div class="cards-top">
                         <div class="details">
                             <h2 class="name">Charmander</h2>
@@ -125,7 +127,7 @@
                     </div>
                 </div>
 
-                <div class="card-pokemon">
+                <div class="card-pokemon type-water" id="card-squirtle">
                     <div class="cards-top">
                         <div class="details">
                             <h2 class="name">Squirtle</h2>
@@ -163,22 +165,22 @@
 
             <nav class="list">
                 <ul>
-                    <li class="pokemon">
+                    <li class="pokemon" id="bulbasaur">
                         <img src="src/images/bulbasaur - Copia.png" alt="cabeça do bulbasaur">
                         <span>Bulbasaur</span>
                     </li>
 
-                    <li class="pokemon">
+                    <li class="pokemon" id="charmander">
                         <img src="src/images/charmander - Copia.png" alt="cabeça do charmander">
                         <span>Charmander</span>
                     </li>
 
-                    <li class="pokemon">
+                    <li class="pokemon" id="squirtle">
                         <img src="src/images/squirtle - Copia.png" alt="cabeça do squirtle">
                         <span>Squirtle</span>
                     </li>
 
-                    <li class="pokemon active">
+                    <li class="pokemon active" id="pikachu">
                         <img src="src/images/pikachu - Copia.png" alt="cabeça do pikachu">
                         <span>Pikachu</span>
                     </li>
@@ -188,6 +190,8 @@
             </nav>
         </div>
     </main>
+
+    <script src="src/js/index.js"></script>
 </body>
 
 </html>
